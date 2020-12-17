@@ -1,0 +1,55 @@
+[2020-07-11 00:01:08:635] [INFO ] [MyLogger.info ] - Going to URL: http:/mail.ru
+[2020-07-11 00:01:18:838] [INFO ] [MyLogger.info ] - Typing login  (Additional information: [[ChromeDriver: chrome on WINDOWS (d6477677580eee99d9ce530fcd236738)] -> id: mailbox:login])
+[2020-07-11 00:01:20:301] [INFO ] [MyLogger.info ] - Clicking element 'Войти' (Additional information: Proxy element for: DefaultElementLocator 'By.xpath: //label[text()='Ввести пароль']')
+[2020-07-11 00:01:20:717] [INFO ] [MyLogger.info ] - Clicking element (Additional information: [[ChromeDriver: chrome on WINDOWS (d6477677580eee99d9ce530fcd236738)] -> id: mailbox:password])
+[2020-07-11 00:01:21:229] [INFO ] [MyLogger.info ] - Typing password  (Additional information: [[ChromeDriver: chrome on WINDOWS (d6477677580eee99d9ce530fcd236738)] -> id: mailbox:password])
+[2020-07-11 00:01:21:788] [INFO ] [MyLogger.info ] - Entering in email(Additional information: [[ChromeDriver: chrome on WINDOWS (d6477677580eee99d9ce530fcd236738)] -> xpath: //input[@class='o-control']])
+[2020-07-11 00:01:32:776] [INFO ] [MyLogger.info ] - Typing the address (Additional information: [[ChromeDriver: chrome on WINDOWS (d6477677580eee99d9ce530fcd236738)] -> css selector: div.inputContainer--nsqFu > input])
+[2020-07-11 00:01:33:309] [INFO ] [MyLogger.info ] - Typing the subject (Additional information: [[ChromeDriver: chrome on WINDOWS (d6477677580eee99d9ce530fcd236738)] -> name: Subject])
+[2020-07-11 00:01:33:800] [INFO ] [MyLogger.info ] - Typing body of email SOME DATA(Additional information: [[ChromeDriver: chrome on WINDOWS (d6477677580eee99d9ce530fcd236738)] -> xpath: //div[@tabindex='505']/div[1]])
+[2020-07-11 00:01:34:176] [INFO ] [MyLogger.info ] - Clicking element 'Сохранить' (Additional information: [[ChromeDriver: chrome on WINDOWS (d6477677580eee99d9ce530fcd236738)] -> xpath: //span[text()='Сохранить']])
+[2020-07-11 00:01:35:138] [INFO ] [MyLogger.info ] - Finishing writing  (Additional information: [[ChromeDriver: chrome on WINDOWS (d6477677580eee99d9ce530fcd236738)] -> xpath: //button[@title='Закрыть']])
+[2020-07-11 00:01:36:404] [INFO ] [MyLogger.info ] - Entering in draft folder 'Черновики' (Additional information: [[ChromeDriver: chrome on WINDOWS (d6477677580eee99d9ce530fcd236738)] -> xpath: //div[@class='nav__folder-name__txt'][text()='Черновики']])
+[2020-07-11 00:01:38:530] [INFO ] [MyLogger.info ] - Choosing test email(Additional information: [[ChromeDriver: chrome on WINDOWS (d6477677580eee99d9ce530fcd236738)] -> xpath: //span[@title='Удалить']])
+[2020-07-11 00:01:38:804] [INFO ] [MyLogger.info ] - Deleting test email from drafts 'Удалить' (Additional information: [[ChromeDriver: chrome on WINDOWS (d6477677580eee99d9ce530fcd236738)] -> xpath: //span[@title='Удалить']])
+[2020-07-11 00:01:40:181] [INFO ] [MyLogger.info ] - Entering in basket 'Корзина' (Additional information: [[ChromeDriver: chrome on WINDOWS (d6477677580eee99d9ce530fcd236738)] -> xpath: //div[@class='nav__folder-name']//div[text()='Корзина']])
+[2020-07-11 00:01:41:174] [INFO ] [MyLogger.info ] - Choosing test email in drafts (Additional information: [[ChromeDriver: chrome on WINDOWS (d6477677580eee99d9ce530fcd236738)] -> xpath: //div[@class='ll-av__container']//span[@class='ll-av__checkbox']])
+[2020-07-11 00:01:41:628] [INFO ] [MyLogger.info ] - Deleting test email from basket 'Удалить' (Additional information: [[ChromeDriver: chrome on WINDOWS (d6477677580eee99d9ce530fcd236738)] -> xpath: //span[@title='Удалить']])
+[2020-07-11 00:02:07:185] [ERROR] [MyLogger.error] - Can't wait till the WebElement's appearance.Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[text() = 'В корзина пусто']' (tried for 25 second(s) with 500 milliseconds interval)
+[2020-07-11 00:02:08:240] [DEBUG] [MyLogger.debug] - Saved screenshot: screenshots/scr125107289038800
+[2020-07-11 00:02:08:393] [INFO ] [MyLogger.info ] - Logout from email 'выход' (Additional information: [[ChromeDriver: chrome on WINDOWS (d6477677580eee99d9ce530fcd236738)] -> xpath: //a[@id='PH_logoutLink']])
+[2020-07-11 00:02:16:463] [INFO ] [MyLogger.info ] - Logout has been successful 'Вход' (Additional information: [[ChromeDriver: chrome on WINDOWS (d6477677580eee99d9ce530fcd236738)] -> xpath: //a[@id='PH_authLink']])
+[2020-07-11 00:02:16:637] [INFO ] [MyLogger.info ] - Clearing the input field(Additional information: [[ChromeDriver: chrome on WINDOWS (d6477677580eee99d9ce530fcd236738)] -> id: mailbox:login])
+[2020-07-11 00:02:16:757] [INFO ] [MyLogger.info ] - Going to URL: http:/mail.ru
+[2020-07-11 00:02:21:827] [INFO ] [MyLogger.info ] - Typing login  (Additional information: [[ChromeDriver: chrome on WINDOWS (d6477677580eee99d9ce530fcd236738)] -> id: mailbox:login])
+[2020-07-11 00:02:22:490] [INFO ] [MyLogger.info ] - Clicking element 'Ввести пароль' (Additional information: [[ChromeDriver: chrome on WINDOWS (d6477677580eee99d9ce530fcd236738)] -> xpath: //label[text()='Ввести пароль']])
+[2020-07-11 00:02:49:332] [WARN ] [MyLogger.warn ] - Browser is closing now.
+[2020-07-11 00:09:06:981] [INFO ] [MyLogger.info ] - Going to URL: http:/mail.ru
+[2020-07-11 00:09:15:267] [INFO ] [MyLogger.info ] - Typing login  (Additional information: [[ChromeDriver: chrome on WINDOWS (938167a2a709e1af47f781a7c685d476)] -> id: mailbox:login])
+[2020-07-11 00:09:17:681] [WARN ] [MyLogger.warn ] - Browser is closing now.
+[2020-07-11 00:09:37:196] [INFO ] [MyLogger.info ] - Going to URL: http:/mail.ru
+[2020-07-11 00:09:45:486] [INFO ] [MyLogger.info ] - Typing login  (Additional information: [[ChromeDriver: chrome on WINDOWS (5e39de7e44eb12767646304df96bb877)] -> id: mailbox:login])
+[2020-07-11 00:09:46:748] [INFO ] [MyLogger.info ] - Clicking element 'Ввести пароль' (Additional information: Proxy element for: DefaultElementLocator 'By.xpath: //label[text()='Ввести пароль']')
+[2020-07-11 00:09:47:351] [INFO ] [MyLogger.info ] - Clicking element (Additional information: [[ChromeDriver: chrome on WINDOWS (5e39de7e44eb12767646304df96bb877)] -> id: mailbox:password])
+[2020-07-11 00:09:47:997] [INFO ] [MyLogger.info ] - Typing password  (Additional information: [[ChromeDriver: chrome on WINDOWS (5e39de7e44eb12767646304df96bb877)] -> id: mailbox:password])
+[2020-07-11 00:09:48:836] [INFO ] [MyLogger.info ] - Entering in email(Additional information: [[ChromeDriver: chrome on WINDOWS (5e39de7e44eb12767646304df96bb877)] -> xpath: //input[@class='o-control']])
+[2020-07-11 00:10:00:758] [INFO ] [MyLogger.info ] - Typing the address (Additional information: [[ChromeDriver: chrome on WINDOWS (5e39de7e44eb12767646304df96bb877)] -> css selector: div.inputContainer--nsqFu > input])
+[2020-07-11 00:10:01:415] [INFO ] [MyLogger.info ] - Typing the subject (Additional information: [[ChromeDriver: chrome on WINDOWS (5e39de7e44eb12767646304df96bb877)] -> name: Subject])
+[2020-07-11 00:10:01:909] [INFO ] [MyLogger.info ] - Typing body of email SOME DATA(Additional information: [[ChromeDriver: chrome on WINDOWS (5e39de7e44eb12767646304df96bb877)] -> xpath: //div[@tabindex='505']/div[1]])
+[2020-07-11 00:10:02:277] [INFO ] [MyLogger.info ] - Clicking element 'Сохранить' (Additional information: [[ChromeDriver: chrome on WINDOWS (5e39de7e44eb12767646304df96bb877)] -> xpath: //span[text()='Сохранить']])
+[2020-07-11 00:10:02:861] [INFO ] [MyLogger.info ] - Finishing writing  (Additional information: [[ChromeDriver: chrome on WINDOWS (5e39de7e44eb12767646304df96bb877)] -> xpath: //button[@title='Закрыть']])
+[2020-07-11 00:10:03:752] [INFO ] [MyLogger.info ] - Entering in draft folder 'Черновики' (Additional information: [[ChromeDriver: chrome on WINDOWS (5e39de7e44eb12767646304df96bb877)] -> xpath: //div[@class='nav__folder-name__txt'][text()='Черновики']])
+[2020-07-11 00:10:06:150] [INFO ] [MyLogger.info ] - Choosing test email(Additional information: [[ChromeDriver: chrome on WINDOWS (5e39de7e44eb12767646304df96bb877)] -> xpath: //span[@title='Удалить']])
+[2020-07-11 00:10:06:508] [INFO ] [MyLogger.info ] - Deleting test email from drafts 'Удалить' (Additional information: [[ChromeDriver: chrome on WINDOWS (5e39de7e44eb12767646304df96bb877)] -> xpath: //span[@title='Удалить']])
+[2020-07-11 00:10:07:928] [INFO ] [MyLogger.info ] - Entering in basket 'Корзина' (Additional information: [[ChromeDriver: chrome on WINDOWS (5e39de7e44eb12767646304df96bb877)] -> xpath: //div[@class='nav__folder-name']//div[text()='Корзина']])
+[2020-07-11 00:10:09:073] [INFO ] [MyLogger.info ] - Choosing test email in drafts (Additional information: [[ChromeDriver: chrome on WINDOWS (5e39de7e44eb12767646304df96bb877)] -> xpath: //div[@class='ll-av__container']//span[@class='ll-av__checkbox']])
+[2020-07-11 00:10:09:933] [INFO ] [MyLogger.info ] - Deleting test email from basket 'Удалить' (Additional information: [[ChromeDriver: chrome on WINDOWS (5e39de7e44eb12767646304df96bb877)] -> xpath: //span[@title='Удалить']])
+[2020-07-11 00:10:35:591] [ERROR] [MyLogger.error] - Can't wait till the WebElement's appearance.Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[text() = 'В корзина пусто']' (tried for 25 second(s) with 500 milliseconds interval)
+[2020-07-11 00:10:36:854] [DEBUG] [MyLogger.debug] - Saved screenshot: screenshots/scr125615914434300
+[2020-07-11 00:10:36:959] [INFO ] [MyLogger.info ] - Logout from email 'выход' (Additional information: [[ChromeDriver: chrome on WINDOWS (5e39de7e44eb12767646304df96bb877)] -> xpath: //a[@id='PH_logoutLink']])
+[2020-07-11 00:10:45:634] [INFO ] [MyLogger.info ] - Logout has been successful 'Вход' (Additional information: [[ChromeDriver: chrome on WINDOWS (5e39de7e44eb12767646304df96bb877)] -> xpath: //a[@id='PH_authLink']])
+[2020-07-11 00:10:45:760] [INFO ] [MyLogger.info ] - Clearing the input field(Additional information: [[ChromeDriver: chrome on WINDOWS (5e39de7e44eb12767646304df96bb877)] -> id: mailbox:login])
+[2020-07-11 00:10:46:307] [INFO ] [MyLogger.info ] - Going to URL: http:/mail.ru
+[2020-07-11 00:10:52:128] [INFO ] [MyLogger.info ] - Typing login  (Additional information: [[ChromeDriver: chrome on WINDOWS (5e39de7e44eb12767646304df96bb877)] -> id: mailbox:login])
+[2020-07-11 00:10:52:690] [INFO ] [MyLogger.info ] - Clicking element 'Ввести пароль' (Additional information: [[ChromeDriver: chrome on WINDOWS (5e39de7e44eb12767646304df96bb877)] -> xpath: //label[text()='Ввести пароль']])
+[2020-07-11 00:11:19:687] [WARN ] [MyLogger.warn ] - Browser is closing now.
